@@ -44,6 +44,8 @@ The dataset includes happiness data from 2011 to 2018, yet not all countries hav
 
 _Self check: Both datasets should include 115 countries, so the training dataset should have 805 rows and the test dataset should have 115 rows._
 
+_You may assume that all countries that appear in `happiness_valid.csv` are within these 115 countries._
+
 ### Overview of Workflow
 
 Once you have created the training set and test set, all your modeling process (EDA, model fitting, model selection, etc) should only involve the training data. Use the test set for model evaluation but not for model training to avoid overfitting. When you are finally satisfied with your model, train your model on both training and test data combined, and predict happiness using the validation set. You can upload the results on Kaggle before the deadline (up to 20 times per day), and the performance on 25\% of the validation set will be revealed. Finally, after the deadline, your models will be evaluated on the rest (75\%) of the validation set and ranked accordingly.
